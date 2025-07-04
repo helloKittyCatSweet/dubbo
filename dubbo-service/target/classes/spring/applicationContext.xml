@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--dubbo的配置-->
+    <!--1.项目的名称，唯一-->
+    <dubbo:application name="dubbo-service"/>
+
+    <!--2.配置注册中心-->
+    <dubbo:registry address="zookeeper://192.168.88.130:2181" timeout="500000">
+        <dubbo:parameter key="blockUntilConnectedWait" value="50"/>
+    </dubbo:registry>
+
+    <dubbo:provider token="true"/>
+
+    <context:component-scan base-package="org.example"/>
+    <dubbo:annotation package="org.example"/>
+</beans>

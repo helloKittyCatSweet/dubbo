@@ -1,0 +1,416 @@
+2025-07-04 17:32:27  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)  Initializing Servlet 'springmvc'
+2025-07-04 17:32:29  org.apache.dubbo.rpc.model.FrameworkModel.<init>(FrameworkModel.java:86)   [DUBBO] Dubbo Framework[1] is created, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:29  org.apache.dubbo.common.resource.GlobalResourcesRepository.getExecutorService(GlobalResourcesRepository.java:96)   [DUBBO] Creating global shared handler ..., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:29  org.apache.dubbo.rpc.model.ApplicationModel.<init>(ApplicationModel.java:107)   [DUBBO] Dubbo Application[1.0](unknown) is created, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:29  org.apache.dubbo.rpc.model.ModuleModel.<init>(ModuleModel.java:63)   [DUBBO] Dubbo Module[1.0.0] is created, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:29  org.apache.dubbo.config.context.AbstractConfigManager.initialize(AbstractConfigManager.java:143)   [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:29  org.apache.dubbo.config.context.AbstractConfigManager.initialize(AbstractConfigManager.java:143)   [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:29  org.apache.dubbo.common.utils.SerializeSecurityManager.setCheckSerializable(SerializeSecurityManager.java:107)   [DUBBO] Serialize check serializable: true, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:29  org.apache.dubbo.common.utils.SerializeSecurityConfigurator.loadAllow(SerializeSecurityConfigurator.java:140)   [DUBBO] Read serialize allow list from jar:file:/D:/examples/dubbo/dubbo-web/target/cargo/configurations/tomcat9x/webapps/dubbo-web/WEB-INF/lib/dubbo-3.3.0.jar!/security/serialize.allowlist, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:29  org.apache.dubbo.common.utils.SerializeSecurityConfigurator.loadBlocked(SerializeSecurityConfigurator.java:164)   [DUBBO] Read serialize blocked list from jar:file:/D:/examples/dubbo/dubbo-web/target/cargo/configurations/tomcat9x/webapps/dubbo-web/WEB-INF/lib/dubbo-3.3.0.jar!/security/serialize.blockedlist, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.rpc.model.ApplicationModel.<init>(ApplicationModel.java:107)   [DUBBO] Dubbo Application[1.1](unknown) is created, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.rpc.model.ModuleModel.<init>(ModuleModel.java:63)   [DUBBO] Dubbo Module[1.1.0] is created, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.context.AbstractConfigManager.initialize(AbstractConfigManager.java:143)   [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.context.AbstractConfigManager.initialize(AbstractConfigManager.java:143)   [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.common.utils.SerializeSecurityConfigurator.loadAllow(SerializeSecurityConfigurator.java:140)   [DUBBO] Read serialize allow list from jar:file:/D:/examples/dubbo/dubbo-web/target/cargo/configurations/tomcat9x/webapps/dubbo-web/WEB-INF/lib/dubbo-3.3.0.jar!/security/serialize.allowlist, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.common.utils.SerializeSecurityConfigurator.loadBlocked(SerializeSecurityConfigurator.java:164)   [DUBBO] Read serialize blocked list from jar:file:/D:/examples/dubbo/dubbo-web/target/cargo/configurations/tomcat9x/webapps/dubbo-web/WEB-INF/lib/dubbo-3.3.0.jar!/security/serialize.blockedlist, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.spring.context.DubboSpringInitializer.initContext(DubboSpringInitializer.java:118)   [DUBBO] Use default application: Dubbo Application[1.1](unknown), dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.rpc.model.ModuleModel.<init>(ModuleModel.java:63)   [DUBBO] Dubbo Module[1.1.1] is created, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.context.AbstractConfigManager.initialize(AbstractConfigManager.java:143)   [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.common.utils.SerializeSecurityConfigurator.loadAllow(SerializeSecurityConfigurator.java:140)   [DUBBO] Read serialize allow list from jar:file:/D:/examples/dubbo/dubbo-web/target/cargo/configurations/tomcat9x/webapps/dubbo-web/WEB-INF/lib/dubbo-3.3.0.jar!/security/serialize.allowlist, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.common.utils.SerializeSecurityConfigurator.loadBlocked(SerializeSecurityConfigurator.java:164)   [DUBBO] Read serialize blocked list from jar:file:/D:/examples/dubbo/dubbo-web/target/cargo/configurations/tomcat9x/webapps/dubbo-web/WEB-INF/lib/dubbo-3.3.0.jar!/security/serialize.blockedlist, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.spring.context.DubboSpringInitializer.initContext(DubboSpringInitializer.java:128)   [DUBBO] Use default module model of target application: Dubbo Module[1.1.1], dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.spring.context.DubboSpringInitializer.initContext(DubboSpringInitializer.java:132)   [DUBBO] Bind Dubbo Module[1.1.1] to spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@5b0c28d0, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor.resolveBeanNameGenerator(ServiceAnnotationPostProcessor.java:310)   [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationPostProcessor.resolveBeanNameGenerator(ServiceAnnotationPostProcessor.java:312)   [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30     [DUBBO] No class annotated by Dubbo @DubboService or @Service was found under package [org.example.controller], ignore re-scanned classes: 0, dubbo version: 3.3.0, current host: 192.168.56.1, error code: 5-28. This may be caused by No annotations were found on the class, go to https://dubbo.apache.org/faq/5/28 to find instructions. 
+2025-07-04 17:32:30  org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor.registerReferenceBean(ReferenceAnnotationBeanPostProcessor.java:566)   [DUBBO] Register dubbo reference bean: userService = ReferenceBean:org.example.service.UserService() at private org.example.service.UserService org.example.controller.UserController.userService, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.spring.beans.factory.annotation.AbstractAnnotationBeanPostProcessor.destroy(AbstractAnnotationBeanPostProcessor.java:264)   [DUBBO] class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.spring.context.DubboConfigBeanInitializer.prepareDubboConfigBeans(DubboConfigBeanInitializer.java:98)   [DUBBO] loading dubbo config beans ..., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.spring.context.DubboConfigBeanInitializer.prepareDubboConfigBeans(DubboConfigBeanInitializer.java:124)   [DUBBO] dubbo config beans are loaded., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:30  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.isUsedRegistryAsCenter(DefaultApplicationDeployer.java:577)   [DUBBO] No value is configured in the registry, the DynamicConfigurationFactory extension[name : zookeeper] supports as the config center, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:31  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.isUsedRegistryAsCenter(DefaultApplicationDeployer.java:587)   [DUBBO] The registry[<dubbo:registry timeout="500000" port="2181" parameters="{blockUntilConnectedWait=50}" address="zookeeper://192.168.88.130:2181" protocol="zookeeper" />] will be used as the config center, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:31  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.lambda$useRegistryAsConfigCenterIfNecessary$0(DefaultApplicationDeployer.java:373)   [DUBBO] use registry as config-center: <dubbo:config-center highestPriority="false" id="config-center-zookeeper-192.168.88.130-2181" timeout="500000" address="zookeeper://192.168.88.130:2181" protocol="zookeeper" port="2181" parameters="{client=null, blockUntilConnectedWait=50}" />, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:31  org.apache.curator.CuratorZookeeperClient.<init>(CuratorZookeeperClient.java:158)  session timeout [60000] is less than connection timeout [500000]
+2025-07-04 17:32:31  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:335)  Starting
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:zookeeper.version=3.7.2-c06c7c8a3e95779d4becb1938b378596e3b420d0, built on 2023-10-06 09:51 UTC
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:host.name=DESKTOP-OSJO1O2
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:java.version=17.0.1
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:java.vendor=Oracle Corporation
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:java.home=C:\Program Files\Java\jdk-17.0.1
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:java.class.path=D:\program_25\IntelliJ IDEA Community Edition 2024.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.8.0.jar;D:\program_25\IntelliJ IDEA Community Edition 2024.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:java.library.path=C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\CMake\bin;D:\Microsoft_VS_Code\bin;C:\Users\86177\AppData\Local\Android\Sdk\tools\;C:\Users\86177\AppData\Local\Android\Sdk\platform-tools\;C:\Program Files\Android\Android Studio\bin;D:\Program Files (x86)\Rational\common;%JAVA_JRE%\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;D:\Program Files\Nox\bin;C:\Program Files\NVIDIA Corporat;D:\program_24\WinSCP\;C:\Program Files (x86)\Git\bin;C:\Program Files\Docker\Docker\resources\bin;D:\program_23\mysql-8.0.33-winx64\bin;C:\Program Files\Git LFS;c:\Users\86177\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\86177\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\env\apache-maven-3.9.9\bin;C:\Users\86177\anaconda3\Scripts;D:\program_25\cloc\cloc-2.04.exe;D:\program_25\tesseract;C:\Microsoft\AndroidSDK\25;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2\bin;;D:\programm_22\JetBrains\IntelliJ IDEA 2022.3\bin;;C:\Users\86177\go\bin;D:\program_23\goland\GoLand 2023.1.2\bin;;C:\Program Files\JetBrains\PyCharm 2023.1.2\bin;;D:\program_23\mysql-8.0.33-winx64;D:\program_23\flutter\bin;C:\Users\86177\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\86177\AppData\Roaming\npm;D:\env\apache-maven-3.9.9\bin;D:\program_24\cpolar\;C:\Program Files\Git\bin;C:\Users\86177\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\86177\AppData\Local\GitHubDesktop\bin;C:\Users\86177\AppData\Local\Programs\cursor\resources\app\bin;D:\program_25\texlive\2025\bin\windows;.
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:java.io.tmpdir=C:\Users\86177\AppData\Local\Temp\
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:java.compiler=<NA>
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:os.name=Windows 10
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:os.arch=amd64
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:os.version=10.0
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:user.name=86177
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:user.home=C:\Users\86177
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:user.dir=D:\examples\dubbo\dubbo-web
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:os.memory.free=223MB
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:os.memory.max=8120MB
+2025-07-04 17:32:31  org.apache.zookeeper.Environment.logEnv(Environment.java:98)  Client environment:os.memory.total=288MB
+2025-07-04 17:32:31  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:637)  Initiating client connection, connectString=192.168.88.130:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@74ff439e
+2025-07-04 17:32:31  org.apache.zookeeper.common.X509Util.<clinit>(X509Util.java:79)  Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+2025-07-04 17:32:31  org.apache.zookeeper.ClientCnxnSocket.initProperties(ClientCnxnSocket.java:239)  jute.maxbuffer value is 1048575 Bytes
+2025-07-04 17:32:31  org.apache.zookeeper.ClientCnxn.initRequestTimeout(ClientCnxn.java:1741)  zookeeper.request.timeout value is 0. feature enabled=false
+2025-07-04 17:32:31  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:374)  Default schema
+2025-07-04 17:32:53  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1177)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181.
+2025-07-04 17:32:53  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1179)  SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-07-04 17:32:53  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:1011)  Socket connection established, initiating session, client: /192.168.88.1:61477, server: 192.168.88.130/192.168.88.130:2181
+2025-07-04 17:32:53  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1452)  Session establishment complete on server 192.168.88.130/192.168.88.130:2181, session id = 0x1000003edfb002a, negotiated timeout = 40000
+2025-07-04 17:32:53  org.apache.curator.framework.state.ConnectionStateManager.postState(ConnectionStateManager.java:231)  State change: CONNECTED
+2025-07-04 17:32:53  org.apache.dubbo.remoting.zookeeper.curator5.Curator5ZookeeperClient$CuratorConnectionStateListener.stateChanged(Curator5ZookeeperClient.java:517)   [DUBBO] Curator zookeeper client instance initiated successfully, session id is 1000003edfb002a, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.remoting.zookeeper.curator5.ZookeeperClientManager.connect(ZookeeperClientManager.java:90)   [DUBBO] No valid zookeeper client found from cache, therefore create a new client for url. zookeeper://192.168.88.130:2181/org.apache.dubbo.config.ConfigCenterConfig?blockUntilConnectedWait=50&check=true&config-file=dubbo.properties&group=dubbo&highest-priority=false&namespace=dubbo&timeout=500000, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.curator.framework.imps.EnsembleTracker.processConfigData(EnsembleTracker.java:187)  New config event received: {}
+2025-07-04 17:32:53  org.apache.curator.framework.imps.EnsembleTracker.processConfigData(EnsembleTracker.java:187)  New config event received: {}
+2025-07-04 17:32:53  org.apache.dubbo.common.config.ConfigurationUtils.parseProperties(ConfigurationUtils.java:210)   [DUBBO] Config center was specified, but no config item found., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.common.config.ConfigurationUtils.parseProperties(ConfigurationUtils.java:210)   [DUBBO] Config center was specified, but no config item found., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.config.context.ConfigManager.checkConfigs(ConfigManager.java:356)   [DUBBO] The current configurations or effective configurations are as follows:, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.config.context.ConfigManager.lambda$checkConfigs$1(ConfigManager.java:358)   [DUBBO] <dubbo:application enableFileCache="true" executorManagementMode="isolation" parameters="{qos.enable=false}" name="dubbo-web" protocol="dubbo" />, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.config.context.ConfigManager.lambda$checkConfigs$1(ConfigManager.java:358)   [DUBBO] <dubbo:protocol preferSerialization="hessian2,fastjson2" name="dubbo" />, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.config.context.ConfigManager.lambda$checkConfigs$1(ConfigManager.java:358)   [DUBBO] <dubbo:registry timeout="500000" port="2181" parameters="{blockUntilConnectedWait=50}" address="zookeeper://192.168.88.130:2181" protocol="zookeeper" />, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.config.context.ConfigManager.lambda$checkConfigs$1(ConfigManager.java:358)   [DUBBO] <dubbo:ssl />, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.config.deploy.DefaultModuleDeployer.initialize(DefaultModuleDeployer.java:149)   [DUBBO] Dubbo Module[1.1.0] has been initialized!, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.config.deploy.DefaultModuleDeployer.initialize(DefaultModuleDeployer.java:149)   [DUBBO] Dubbo Module[1.1.1] has been initialized!, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.isUsedRegistryAsCenter(DefaultApplicationDeployer.java:577)   [DUBBO] No value is configured in the registry, the MetadataReportFactory extension[name : zookeeper] supports as the metadata center, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.isUsedRegistryAsCenter(DefaultApplicationDeployer.java:587)   [DUBBO] The registry[<dubbo:registry timeout="500000" port="2181" parameters="{blockUntilConnectedWait=50}" address="zookeeper://192.168.88.130:2181" protocol="zookeeper" />] will be used as the metadata center, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.overrideMetadataReportConfig(DefaultApplicationDeployer.java:545)   [DUBBO] use registry as metadata-center: <dubbo:metadata-report timeout="500000" address="zookeeper://192.168.88.130:2181" protocol="zookeeper" port="2181" parameters="{blockUntilConnectedWait=50, client=null}" />, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.remoting.zookeeper.curator5.ZookeeperClientManager.connect(ZookeeperClientManager.java:78)   [DUBBO] find valid zookeeper client from the cache for address: zookeeper://192.168.88.130:2181/org.apache.dubbo.metadata.report.MetadataReport?application=dubbo-web&blockUntilConnectedWait=50&client=&file-cache=true&port=2181&protocol=zookeeper&timeout=500000, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:53  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.initialize(DefaultApplicationDeployer.java:243)   [DUBBO] Dubbo Application[1.1](dubbo-web) has been initialized!, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:54  org.apache.dubbo.config.spring.reference.ReferenceCreator.build(ReferenceCreator.java:98)   [DUBBO] The configBean[type:ReferenceConfig<org.example.service.UserService>] has been built., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStarting(DefaultModuleDeployer.java:365)   [DUBBO] Dubbo Module[1.1.1] is starting., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onStarting(DefaultApplicationDeployer.java:1328)   [DUBBO] Dubbo Application[1.1](dubbo-web) is starting., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStarting(DefaultModuleDeployer.java:365)   [DUBBO] Dubbo Module[1.1.0] is starting., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStarted(DefaultModuleDeployer.java:372)   [DUBBO] Dubbo Module[1.1.0] has started., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleCompletion(DefaultModuleDeployer.java:380)   [DUBBO] Dubbo Module[1.1.0] has completed., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.qos.protocol.QosProtocolWrapper.startQosServer(QosProtocolWrapper.java:109)   [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:345)   [DUBBO] Loaded registry cache file C:\Users\86177\.dubbo\dubbo-registry-dubbo-web-192.168.88.130-2181.cache, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.remoting.zookeeper.curator5.ZookeeperClientManager.connect(ZookeeperClientManager.java:78)   [DUBBO] find valid zookeeper client from the cache for address: zookeeper://192.168.88.130:2181/org.apache.dubbo.registry.RegistryService?REGISTRY_CLUSTER=default&application=dubbo-web&blockUntilConnectedWait=50&dubbo=2.0.2&executor-management-mode=isolation&file-cache=true&interface=org.apache.dubbo.registry.RegistryService&pid=25176&qos.enable=false&release=3.3.0&timeout=500000, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.registry.client.migration.MigrationRuleListener.init(MigrationRuleListener.java:106)   [DUBBO] Listening for migration rules on dataId dubbo-web.migration, group DUBBO_SERVICEDISCOVERY_MIGRATION, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:453)   [DUBBO] Subscribe: consumer://192.168.56.1/org.example.service.UserService?application=dubbo-web&background=false&category=providers,configurators,routers&dubbo=2.0.2&executor-management-mode=isolation&file-cache=true&interface=org.example.service.UserService&methods=findUserById,sayHello&pid=25176&qos.enable=false&release=3.3.0&revision=1.0-SNAPSHOT&side=consumer&sticky=false&timestamp=1751621575108&unloadClusterRelated=false, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:556)   [DUBBO] Notify urls for subscribe url consumer://192.168.56.1/org.example.service.UserService?application=dubbo-web&background=false&category=providers,configurators,routers&dubbo=2.0.2&executor-management-mode=isolation&file-cache=true&interface=org.example.service.UserService&methods=findUserById,sayHello&pid=25176&qos.enable=false&release=3.3.0&revision=1.0-SNAPSHOT&side=consumer&sticky=false&timestamp=1751621575108&unloadClusterRelated=false, url size: 3, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:55  org.apache.dubbo.qos.protocol.QosProtocolWrapper.startQosServer(QosProtocolWrapper.java:109)   [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:56  org.apache.dubbo.remoting.transport.netty4.NettyServerHandler.channelActive(NettyServerHandler.java:75)   [DUBBO] The connection [id: 0x887fb6f0, L:/192.168.56.1:20880 - R:/192.168.56.1:61480] of 192.168.56.1:61480 -> 192.168.56.1:20880 is established., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:56  org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:282)   [DUBBO] Successfully connect to server /192.168.56.1:20880 from NettyClient 192.168.56.1 using dubbo version 3.3.0, channel is NettyChannel [channel=[id: 0xa57b706b, L:/192.168.56.1:61480 - R:/192.168.56.1:20880]], dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:56  org.apache.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:99)   [DUBBO] Start NettyClient /192.168.56.1 connect to the server /192.168.56.1:20880, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:56  org.apache.dubbo.remoting.transport.netty4.NettyClientHandler.channelActive(NettyClientHandler.java:62)   [DUBBO] The connection [id: 0xa57b706b, L:/192.168.56.1:61480 - R:/192.168.56.1:20880] of 192.168.56.1:61480 -> 192.168.56.1:20880 is established., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:56  org.apache.dubbo.registry.integration.RegistryDirectory.refreshInvoker(RegistryDirectory.java:368)   [DUBBO] Received invokers changed event from registry. Registry type: interface. Service Key: org.example.service.UserService. Urls Size : 1. Invokers Size : 1. Available Size: 1. Available Invokers : 192.168.56.1:20880, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:56  org.apache.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:345)   [DUBBO] Loaded registry cache file C:\Users\86177\.dubbo\dubbo-registry-dubbo-web-192.168.88.130-2181.cache, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:32:57  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:335)  Starting
+2025-07-04 17:32:57  org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:637)  Initiating client connection, connectString=192.168.88.130:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@7606cd62
+2025-07-04 17:32:57  org.apache.zookeeper.ClientCnxnSocket.initProperties(ClientCnxnSocket.java:239)  jute.maxbuffer value is 1048575 Bytes
+2025-07-04 17:32:57  org.apache.zookeeper.ClientCnxn.initRequestTimeout(ClientCnxn.java:1741)  zookeeper.request.timeout value is 0. feature enabled=false
+2025-07-04 17:32:57  org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:374)  Default schema
+2025-07-04 17:33:12  org.apache.curator.retry.ExponentialBackoffRetry.getSleepTimeMs(ExponentialBackoffRetry.java:69)  Sleep extension too large (700). Pinning to 500
+2025-07-04 17:33:13  org.apache.curator.retry.ExponentialBackoffRetry.getSleepTimeMs(ExponentialBackoffRetry.java:69)  Sleep extension too large (950). Pinning to 500
+2025-07-04 17:33:13  org.apache.curator.retry.ExponentialBackoffRetry.getSleepTimeMs(ExponentialBackoffRetry.java:69)  Sleep extension too large (2800). Pinning to 500
+2025-07-04 17:33:14  org.apache.curator.retry.ExponentialBackoffRetry.getSleepTimeMs(ExponentialBackoffRetry.java:69)  Sleep extension too large (5350). Pinning to 500
+2025-07-04 17:33:14  org.apache.curator.retry.ExponentialBackoffRetry.getSleepTimeMs(ExponentialBackoffRetry.java:69)  Sleep extension too large (10050). Pinning to 500
+2025-07-04 17:33:15  org.apache.curator.retry.ExponentialBackoffRetry.getSleepTimeMs(ExponentialBackoffRetry.java:69)  Sleep extension too large (12250). Pinning to 500
+2025-07-04 17:33:15  org.apache.curator.retry.ExponentialBackoffRetry.getSleepTimeMs(ExponentialBackoffRetry.java:69)  Sleep extension too large (31500). Pinning to 500
+2025-07-04 17:33:16  org.apache.curator.framework.state.ConnectionStateManager.postState(ConnectionStateManager.java:231)  State change: SUSPENDED
+2025-07-04 17:33:16  org.apache.curator.framework.imps.CuratorFrameworkImpl.logError(CuratorFrameworkImpl.java:781)  Background operation retry gave up
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkBackgroundRetry(CuratorFrameworkImpl.java:913)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.performBackgroundOperation(CuratorFrameworkImpl.java:1040)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:998)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.access$300(CuratorFrameworkImpl.java:95)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl$4.call(CuratorFrameworkImpl.java:365)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-07-04 17:33:16  org.apache.curator.framework.imps.CuratorFrameworkImpl.logError(CuratorFrameworkImpl.java:781)  Background retry gave up
+org.apache.curator.CuratorConnectionLossException: KeeperErrorCode = ConnectionLoss
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.performBackgroundOperation(CuratorFrameworkImpl.java:1043)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:998)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.access$300(CuratorFrameworkImpl.java:95)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl$4.call(CuratorFrameworkImpl.java:365)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-07-04 17:33:19  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1177)  Opening socket connection to server 192.168.88.130/192.168.88.130:2181.
+2025-07-04 17:33:19  org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1179)  SASL config status: Will not attempt to authenticate using SASL (unknown error)
+2025-07-04 17:33:19  org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:1011)  Socket connection established, initiating session, client: /192.168.88.1:61505, server: 192.168.88.130/192.168.88.130:2181
+2025-07-04 17:33:19  org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1452)  Session establishment complete on server 192.168.88.130/192.168.88.130:2181, session id = 0x1000003edfb002b, negotiated timeout = 40000
+2025-07-04 17:33:19  org.apache.curator.framework.state.ConnectionStateManager.postState(ConnectionStateManager.java:231)  State change: CONNECTED
+2025-07-04 17:33:19  org.apache.curator.framework.imps.EnsembleTracker.processConfigData(EnsembleTracker.java:187)  New config event received: {}
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.ServiceDiscoveryRegistry.subscribeURLs(ServiceDiscoveryRegistry.java:341)   [DUBBO] Trying to subscribe from apps dubbo-service for service key org.example.service.UserService, , dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.ServiceDiscoveryRegistry$DefaultMappingListener.onEvent(ServiceDiscoveryRegistry.java:414)   [DUBBO] Received mapping notification from meta server, {serviceKey: org.example.service.UserService, apps: [dubbo-service]}, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.ServiceDiscoveryRegistry$DefaultMappingListener.onEvent(ServiceDiscoveryRegistry.java:414)   [DUBBO] Received mapping notification from meta server, {serviceKey: org.example.service.UserService, apps: [dubbo-service]}, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.refreshInstance(ServiceInstancesChangedListener.java:343)   [DUBBO] Received instance notification, serviceName: dubbo-service, instances: 1, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.hasEmptyMetadata(ServiceInstancesChangedListener.java:384)   [DUBBO] 1 unique working revisions: 9e1051a59b942d5cd99f14176f57e5e1 , dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.addListenerAndNotify(ServiceInstancesChangedListener.java:266)   [DUBBO] Notify serviceKey: org.example.service.UserService:null, listener: ServiceDiscoveryRegistryDirectory(registry: 192.168.88.130:2181, subscribed key: [dubbo-service])-Directory(invokers: 0[], validInvokers: 0[], invokersToReconnect: 0[]) with 1 urls on subscription, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.ServiceDiscoveryRegistryDirectory.refreshInvoker(ServiceDiscoveryRegistryDirectory.java:359)   [DUBBO] Refreshed invoker size 1 from registry ServiceDiscoveryRegistryDirectory(registry: 192.168.88.130:2181, subscribed key: [dubbo-service])-Directory(invokers: 0[], validInvokers: 0[], invokersToReconnect: 0[]), dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.ServiceDiscoveryRegistryDirectory.refreshInvoker(ServiceDiscoveryRegistryDirectory.java:390)   [DUBBO] Received invokers changed event from registry. Registry type: instance. Service Key: org.example.service.UserService. Urls Size : 1. Invokers Size : 1. Available Size: 1. Available Invokers : 192.168.56.1:20880, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.curator.utils.Compatibility.<clinit>(Compatibility.java:44)  Using org.apache.zookeeper.server.quorum.MultipleAddresses
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.refreshInstance(ServiceInstancesChangedListener.java:343)   [DUBBO] Received instance notification, serviceName: dubbo-service, instances: 1, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.hasEmptyMetadata(ServiceInstancesChangedListener.java:384)   [DUBBO] 1 unique working revisions: 9e1051a59b942d5cd99f14176f57e5e1 , dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.lambda$notifyAddressChanged$10(ServiceInstancesChangedListener.java:465)   [DUBBO] Notify service org.example.service.UserService:null with urls 1, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.ServiceDiscoveryRegistryDirectory.refreshInvoker(ServiceDiscoveryRegistryDirectory.java:359)   [DUBBO] Refreshed invoker size 1 from registry ServiceDiscoveryRegistryDirectory(registry: 192.168.88.130:2181, subscribed key: [dubbo-service])-Directory(invokers: 1[192.168.56.1:20880], validInvokers: 1[192.168.56.1:20880], invokersToReconnect: 0[]), dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.ServiceDiscoveryRegistryDirectory.refreshInvoker(ServiceDiscoveryRegistryDirectory.java:390)   [DUBBO] Received invokers changed event from registry. Registry type: instance. Service Key: org.example.service.UserService. Urls Size : 1. Invokers Size : 1. Available Size: 1. Available Invokers : 192.168.56.1:20880, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.migration.DefaultMigrationAddressComparator.shouldMigrate(DefaultMigrationAddressComparator.java:89)   [DUBBO] serviceKey:org.example.service.UserService Instance address size 1, interface address size 1, threshold 0.0, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.registry.client.migration.MigrationRuleHandler.refreshInvoker(MigrationRuleHandler.java:102)   [DUBBO] Succeed Migrated to APPLICATION_FIRST mode. Service Name: org.example.service.UserService, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:505)   [DUBBO] Referred dubbo service: [org.example.service.UserService]. it's not GenericService reference, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.metadata.report.support.AbstractMetadataReport.storeConsumerMetadataTask(AbstractMetadataReport.java:350)   [DUBBO] store consumer metadata. Identifier : MetadataIdentifier{application='dubbo-web', serviceInterface='org.example.service.UserService', version='', group='', side='consumer'}; definition: {interface=org.example.service.UserService, dubbo=2.0.2, side=consumer, release=3.3.0, application=dubbo-web, pid=25176, executor-management-mode=isolation, file-cache=true, register.ip=192.168.56.1, methods=findUserById,sayHello, background=false, sticky=false, qos.enable=false, unloadClusterRelated=false, revision=1.0-SNAPSHOT, timestamp=1751621575108}, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStarted(DefaultModuleDeployer.java:372)   [DUBBO] Dubbo Module[1.1.1] has started., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.config.deploy.DefaultMetricsServiceExporter.export(DefaultMetricsServiceExporter.java:117)   [DUBBO] The MetricsConfig not exist, will not export metrics service., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onStarted(DefaultApplicationDeployer.java:1340)   [DUBBO] Dubbo Application[1.1](dubbo-web) is ready., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleCompletion(DefaultModuleDeployer.java:380)   [DUBBO] Dubbo Module[1.1.1] has completed., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onCompletion(DefaultApplicationDeployer.java:1360)   [DUBBO] Dubbo Application[1.1](dubbo-web) has completed., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:33:19  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)  Completed initialization in 51870 ms
+2025-07-04 17:36:06  org.apache.dubbo.config.DubboShutdownHook.run(DubboShutdownHook.java:79)   [DUBBO] Run shutdown hook now., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.DubboShutdownHook.doDestroy(DubboShutdownHook.java:112)   [DUBBO] Waiting for modules(Dubbo Application[1.1](dubbo-web)) managed by Spring to be shutdown., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopping(DefaultModuleDeployer.java:417)   [DUBBO] Dubbo Module[1.1.1] is stopping., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onCompletion(DefaultApplicationDeployer.java:1360)   [DUBBO] Dubbo Application[1.1](dubbo-web) has completed., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.DubboShutdownHook.doDestroy(DubboShutdownHook.java:135)   [DUBBO] Dubbo wait for application(Dubbo Application[1.1](dubbo-web)) managed by Spring to be shutdown failed, time usage: 50ms, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.DubboShutdownHook.doDestroy(DubboShutdownHook.java:141)   [DUBBO] Dubbo shutdown hooks execute now. Dubbo Application[1.1](dubbo-web), dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.registry.support.AbstractRegistry.unsubscribe(AbstractRegistry.java:468)   [DUBBO] Unsubscribe: consumer://192.168.56.1/org.example.service.UserService?application=dubbo-web&background=false&category=providers,configurators,routers&dubbo=2.0.2&executor-management-mode=isolation&file-cache=true&interface=org.example.service.UserService&methods=findUserById,sayHello&pid=25176&qos.enable=false&release=3.3.0&revision=1.0-SNAPSHOT&side=consumer&sticky=false&timestamp=1751621575108&unloadClusterRelated=false, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.registry.support.CacheableFailbackRegistry.evictURLCache(CacheableFailbackRegistry.java:141)   [DUBBO] Evicting urls for service org.example.service.UserService, size 1, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener.destroy(ServiceInstancesChangedListener.java:499)   [DUBBO] Destroying instance listener of  [dubbo-service], dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.remoting.transport.netty4.NettyChannel.close(NettyChannel.java:260)   [DUBBO] Close netty channel [id: 0xa57b706b, L:/192.168.56.1:61480 - R:/192.168.56.1:20880], dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06     [DUBBO] All clients has disconnected from /192.168.56.1:20880. You can graceful shutdown now., dubbo version: 3.3.0, current host: 192.168.56.1, error code: 99-0. This may be caused by unknown error in remoting module, go to https://dubbo.apache.org/faq/99/0 to find instructions. 
+2025-07-04 17:36:06  org.apache.dubbo.remoting.transport.netty4.NettyServerHandler.channelInactive(NettyServerHandler.java:95)   [DUBBO] The connection [id: 0x887fb6f0, L:/192.168.56.1:20880 ! R:/192.168.56.1:61480] of 192.168.56.1:61480 -> 192.168.56.1:20880 is disconnected., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.remoting.transport.netty4.NettyClientHandler.channelInactive(NettyClientHandler.java:81)   [DUBBO] The connection [id: 0xa57b706b, L:/192.168.56.1:61480 ! R:/192.168.56.1:20880] of 192.168.56.1:61480 -> 192.168.56.1:20880 is disconnected., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopped(DefaultModuleDeployer.java:427)   [DUBBO] Dubbo Module[1.1.1] has stopped., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onCompletion(DefaultApplicationDeployer.java:1360)   [DUBBO] Dubbo Application[1.1](dubbo-web) has completed., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.rpc.model.FrameworkModel.resetDefaultAppModel(FrameworkModel.java:312)   [DUBBO] Reset global default application from Dubbo Application[1.1](dubbo-web) to null, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onStopping(DefaultApplicationDeployer.java:1388)   [DUBBO] Dubbo Application[1.1](dubbo-web) is stopping., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.destroy(DubboProtocol.java:594)   [DUBBO] Destroying protocol [DubboProtocol] ..., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopping(DefaultModuleDeployer.java:417)   [DUBBO] Dubbo Module[1.1.0] is stopping., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopped(DefaultModuleDeployer.java:427)   [DUBBO] Dubbo Module[1.1.0] has stopped., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.registry.support.RegistryManager.destroyAll(RegistryManager.java:100)   [DUBBO] Close all registries [zookeeper://192.168.88.130:2181/org.apache.dubbo.registry.RegistryService?REGISTRY_CLUSTER=default&application=dubbo-web&blockUntilConnectedWait=50&dubbo=2.0.2&executor-management-mode=isolation&file-cache=true&interface=org.apache.dubbo.registry.RegistryService&pid=25176&qos.enable=false&release=3.3.0&timeout=500000, zookeeper://192.168.88.130:2181/org.apache.dubbo.registry.RegistryService?REGISTRY_CLUSTER=default&application=dubbo-web&blockUntilConnectedWait=50&dubbo=2.0.2&executor-management-mode=isolation&file-cache=true&interface=org.apache.dubbo.registry.RegistryService&pid=25176&qos.enable=false&release=3.3.0&timeout=500000], dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:1006)  backgroundOperationsLoop exiting
+2025-07-04 17:36:06  org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:1232)  Session: 0x1000003edfb002b closed
+2025-07-04 17:36:06  org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:568)  EventThread shut down for session: 0x1000003edfb002b
+2025-07-04 17:36:06  org.apache.dubbo.registry.support.AbstractRegistry.destroy(AbstractRegistry.java:620)   [DUBBO] Destroy registry:zookeeper://192.168.88.130:2181/org.apache.dubbo.registry.RegistryService?REGISTRY_CLUSTER=default&application=dubbo-web&blockUntilConnectedWait=50&dubbo=2.0.2&executor-management-mode=isolation&file-cache=true&interface=org.apache.dubbo.registry.RegistryService&pid=25176&qos.enable=false&release=3.3.0&timeout=500000, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository.destroyAll(DefaultExecutorRepository.java:419)   [DUBBO] destroying application executor repository .., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onStopped(DefaultApplicationDeployer.java:1402)   [DUBBO] Dubbo Application[1.1](dubbo-web) has stopped., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:1006)  backgroundOperationsLoop exiting
+2025-07-04 17:36:06  org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:1232)  Session: 0x1000003edfb002a closed
+2025-07-04 17:36:06  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:36:06  org.apache.dubbo.rpc.model.FrameworkModel.onDestroy(FrameworkModel.java:119)   [DUBBO] Destroying default framework model: Dubbo Framework[1], dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:36:06  org.apache.dubbo.rpc.model.FrameworkModel.onDestroy(FrameworkModel.java:124)   [DUBBO] Dubbo Framework[1] is destroying ..., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onStopping(DefaultApplicationDeployer.java:1388)   [DUBBO] Dubbo Application[1.0](DUBBO_INTERNAL_APPLICATION) is stopping., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopping(DefaultModuleDeployer.java:417)   [DUBBO] Dubbo Module[1.0.0] is stopping., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopped(DefaultModuleDeployer.java:427)   [DUBBO] Dubbo Module[1.0.0] has stopped., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:36:06  org.apache.dubbo.registry.support.RegistryManager.destroyAll(RegistryManager.java:100)   [DUBBO] Close all registries [], dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:36:06  org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository.destroyAll(DefaultExecutorRepository.java:419)   [DUBBO] destroying application executor repository .., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:36:06  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onStopped(DefaultApplicationDeployer.java:1402)   [DUBBO] Dubbo Application[1.0](DUBBO_INTERNAL_APPLICATION) has stopped., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:36:06  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:36:06  org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:568)  EventThread shut down for session: 0x1000003edfb002a
+2025-07-04 17:36:06  org.apache.dubbo.rpc.model.FrameworkModel.onDestroy(FrameworkModel.java:139)   [DUBBO] Dubbo Framework[1] is destroyed, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.rpc.model.FrameworkModel.resetDefaultFrameworkModel(FrameworkModel.java:332)   [DUBBO] Reset global default framework from Dubbo Framework[1] to null, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.common.resource.GlobalResourcesRepository.destroy(GlobalResourcesRepository.java:108)   [DUBBO] Destroying global resources ..., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.common.resource.GlobalResourcesRepository.destroy(GlobalResourcesRepository.java:145)   [DUBBO] Dubbo is completely destroyed, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.common.threadpool.manager.FrameworkExecutorRepository.destroy(FrameworkExecutorRepository.java:210)   [DUBBO] destroying framework executor repository .., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:06  org.apache.dubbo.config.spring.context.DubboSpringInitializer.remove(DubboSpringInitializer.java:80)   [DUBBO] Unbind Dubbo Module[1.1.1] from spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@5b0c28d0, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:36:36  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)  Initializing Servlet 'springmvc'
+2025-07-04 17:36:38  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)  Completed initialization in 2394 ms
+2025-07-04 17:38:55  org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1283)  No mapping for GET /dubbo-web/test.do
+2025-07-04 17:45:17  org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1283)  No mapping for GET /dubbo-web/test.do
+2025-07-04 17:47:08  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)  Initializing Servlet 'springmvc'
+2025-07-04 17:47:10  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)  Completed initialization in 2130 ms
+2025-07-04 17:55:56  org.apache.dubbo.config.DubboShutdownHook.run(DubboShutdownHook.java:79)   [DUBBO] Run shutdown hook now., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.config.DubboShutdownHook.doDestroy(DubboShutdownHook.java:112)   [DUBBO] Waiting for modules(Dubbo Application[1.1](dubbo-service)) managed by Spring to be shutdown., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopping(DefaultModuleDeployer.java:417)   [DUBBO] Dubbo Module[1.1.1] is stopping., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onCompletion(DefaultApplicationDeployer.java:1360)   [DUBBO] Dubbo Application[1.1](dubbo-service) has completed., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.registry.support.AbstractRegistry.unregister(AbstractRegistry.java:438)   [DUBBO] Unregister: dubbo://192.168.56.1:20880/org.example.service.UserService?application=dubbo-service&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&interface=org.example.service.UserService&methods=findUserById,sayHello&prefer.serialization=hessian2,fastjson2&release=3.3.0&retries=2&revision=1.0-SNAPSHOT&service-name-mapping=true&side=provider&timeout=3000&timestamp=1751618963217&token=57271dbc-1485-4e90-ba09-be200c02b9bc, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.config.DubboShutdownHook.doDestroy(DubboShutdownHook.java:135)   [DUBBO] Dubbo wait for application(Dubbo Application[1.1](dubbo-service)) managed by Spring to be shutdown failed, time usage: 50ms, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.config.DubboShutdownHook.doDestroy(DubboShutdownHook.java:141)   [DUBBO] Dubbo shutdown hooks execute now. Dubbo Application[1.1](dubbo-service), dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.registry.support.AbstractRegistry.unsubscribe(AbstractRegistry.java:468)   [DUBBO] Unsubscribe: provider://192.168.56.1:20880/org.example.service.UserService?anyhost=true&application=dubbo-service&background=false&bind.ip=192.168.56.1&bind.port=20880&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&executor-management-mode=isolation&file-cache=true&generic=false&interface=org.example.service.UserService&methods=findUserById,sayHello&pid=20232&prefer.serialization=hessian2,fastjson2&release=3.3.0&retries=2&revision=1.0-SNAPSHOT&service-name-mapping=true&side=provider&timeout=3000&timestamp=1751618963217&token=57271dbc-1485-4e90-ba09-be200c02b9bc, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopped(DefaultModuleDeployer.java:427)   [DUBBO] Dubbo Module[1.1.1] has stopped., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onCompletion(DefaultApplicationDeployer.java:1360)   [DUBBO] Dubbo Application[1.1](dubbo-service) has completed., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.rpc.model.FrameworkModel.resetDefaultAppModel(FrameworkModel.java:312)   [DUBBO] Reset global default application from Dubbo Application[1.1](dubbo-service) to null, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onStopping(DefaultApplicationDeployer.java:1388)   [DUBBO] Dubbo Application[1.1](dubbo-service) is stopping., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.destroy(DubboProtocol.java:594)   [DUBBO] Destroying protocol [DubboProtocol] ..., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.destroy(DubboProtocol.java:607)   [DUBBO] Closing dubbo server: /192.168.56.1:20881, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:56  org.apache.dubbo.remoting.transport.AbstractServer.close(AbstractServer.java:129)   [DUBBO] Close NettyServer bind /0.0.0.0:20881, export /192.168.56.1:20881, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:58  org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol.destroy(DubboProtocol.java:607)   [DUBBO] Closing dubbo server: /192.168.56.1:20880, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:55:58  org.apache.dubbo.remoting.transport.AbstractServer.close(AbstractServer.java:129)   [DUBBO] Close NettyServer bind /0.0.0.0:20880, export /192.168.56.1:20880, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.rpc.protocol.AbstractProtocol.lambda$destroy$0(AbstractProtocol.java:124)   [DUBBO] Unexport service: dubbo://192.168.56.1:20881/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=dubbo-service&background=false&bind.ip=192.168.56.1&bind.port=20881&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executor-management-mode=isolation&file-cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=dubbo-service&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,version&pid=20232&prefer.serialization=hessian2,fastjson2&register=false&release=3.3.0&revision=3.3.0&service.filter=-default&side=provider&timestamp=1751618988155&version=1.0.0, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.qos.server.Server.stop(Server.java:134)   [DUBBO] qos-server stopped., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.rpc.protocol.AbstractProtocol.lambda$destroy$0(AbstractProtocol.java:124)   [DUBBO] Unexport service: injvm://127.0.0.1/org.apache.dubbo.metadata.MetadataService?anyhost=true&application=dubbo-service&background=false&bind.ip=192.168.56.1&bind.port=20881&delay=0&deprecated=false&dubbo=2.0.2&dynamic=true&executor-management-mode=isolation&exporter.listener=injvm&file-cache=true&generic=false&getAndListenInstanceMetadata.1.callback=true&getAndListenInstanceMetadata.return=true&getAndListenInstanceMetadata.sent=true&group=dubbo-service&interface=org.apache.dubbo.metadata.MetadataService&methods=exportInstanceMetadata,getAndListenInstanceMetadata,getExportedServiceURLs,getExportedURLs,getInstanceMetadataChangedListenerMap,getMetadataInfo,getMetadataInfos,getMetadataURL,getServiceDefinition,getSubscribedURLs,isMetadataService,serviceName,toSortedStrings,version&pid=20232&prefer.serialization=hessian2,fastjson2&register=false&release=3.3.0&revision=3.3.0&service.filter=-default&side=provider&timestamp=1751618988155&version=1.0.0, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopping(DefaultModuleDeployer.java:417)   [DUBBO] Dubbo Module[1.1.0] is stopping., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopped(DefaultModuleDeployer.java:427)   [DUBBO] Dubbo Module[1.1.0] has stopped., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.registry.support.RegistryManager.destroyAll(RegistryManager.java:100)   [DUBBO] Close all registries [zookeeper://192.168.88.130:2181/org.apache.dubbo.registry.RegistryService?REGISTRY_CLUSTER=default&application=dubbo-service&blockUntilConnectedWait=50&dubbo=2.0.2&executor-management-mode=isolation&file-cache=true&interface=org.apache.dubbo.registry.RegistryService&pid=20232&register=false&release=3.3.0&timeout=500000, zookeeper://192.168.88.130:2181/org.apache.dubbo.registry.RegistryService?REGISTRY_CLUSTER=default&application=dubbo-service&blockUntilConnectedWait=50&dubbo=2.0.2&executor-management-mode=isolation&file-cache=true&interface=org.apache.dubbo.registry.RegistryService&pid=20232&register=false&release=3.3.0&timeout=500000], dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.registry.support.AbstractRegistry.destroy(AbstractRegistry.java:620)   [DUBBO] Destroy registry:zookeeper://192.168.88.130:2181/org.apache.dubbo.registry.RegistryService?REGISTRY_CLUSTER=default&application=dubbo-service&blockUntilConnectedWait=50&dubbo=2.0.2&executor-management-mode=isolation&file-cache=true&interface=org.apache.dubbo.registry.RegistryService&pid=20232&register=false&release=3.3.0&timeout=500000, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:1006)  backgroundOperationsLoop exiting
+2025-07-04 17:56:01  org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:1232)  Session: 0x1000003edfb0029 closed
+2025-07-04 17:56:01  org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:568)  EventThread shut down for session: 0x1000003edfb0029
+2025-07-04 17:56:01  org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository.destroyAll(DefaultExecutorRepository.java:419)   [DUBBO] destroying application executor repository .., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onStopped(DefaultApplicationDeployer.java:1402)   [DUBBO] Dubbo Application[1.1](dubbo-service) has stopped., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.curator.framework.imps.CuratorFrameworkImpl.backgroundOperationsLoop(CuratorFrameworkImpl.java:1006)  backgroundOperationsLoop exiting
+2025-07-04 17:56:01  org.apache.zookeeper.ZooKeeper.close(ZooKeeper.java:1232)  Session: 0x1000003edfb0027 closed
+2025-07-04 17:56:01  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:56:01  org.apache.dubbo.rpc.model.FrameworkModel.onDestroy(FrameworkModel.java:119)   [DUBBO] Destroying default framework model: Dubbo Framework[1], dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.rpc.model.FrameworkModel.onDestroy(FrameworkModel.java:124)   [DUBBO] Dubbo Framework[1] is destroying ..., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:56:01  org.apache.curator.framework.recipes.cache.NodeCache.handleException(NodeCache.java:308)  
+java.lang.IllegalStateException: Expected state [STARTED] was [STOPPED]
+	at org.apache.curator.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:835)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkState(CuratorFrameworkImpl.java:462)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:489)
+	at org.apache.curator.framework.recipes.cache.NodeCache.reset(NodeCache.java:228)
+	at org.apache.curator.framework.recipes.cache.NodeCache.access$100(NodeCache.java:59)
+	at org.apache.curator.framework.recipes.cache.NodeCache$2.process(NodeCache.java:90)
+	at org.apache.curator.framework.imps.NamespaceWatcher.process(NamespaceWatcher.java:69)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:578)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:553)
+2025-07-04 17:56:01  org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:568)  EventThread shut down for session: 0x1000003edfb0027
+2025-07-04 17:56:01  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onStopping(DefaultApplicationDeployer.java:1388)   [DUBBO] Dubbo Application[1.0](DUBBO_INTERNAL_APPLICATION) is stopping., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopping(DefaultModuleDeployer.java:417)   [DUBBO] Dubbo Module[1.0.0] is stopping., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.config.deploy.DefaultModuleDeployer.onModuleStopped(DefaultModuleDeployer.java:427)   [DUBBO] Dubbo Module[1.0.0] has stopped., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.registry.support.RegistryManager.destroyAll(RegistryManager.java:100)   [DUBBO] Close all registries [], dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository.destroyAll(DefaultExecutorRepository.java:419)   [DUBBO] destroying application executor repository .., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.config.deploy.DefaultApplicationDeployer.onStopped(DefaultApplicationDeployer.java:1402)   [DUBBO] Dubbo Application[1.0](DUBBO_INTERNAL_APPLICATION) has stopped., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.rpc.model.FrameworkModel.onDestroy(FrameworkModel.java:139)   [DUBBO] Dubbo Framework[1] is destroyed, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.rpc.model.FrameworkModel.resetDefaultFrameworkModel(FrameworkModel.java:332)   [DUBBO] Reset global default framework from Dubbo Framework[1] to null, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.common.resource.GlobalResourcesRepository.destroy(GlobalResourcesRepository.java:108)   [DUBBO] Destroying global resources ..., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.common.resource.GlobalResourcesRepository.destroy(GlobalResourcesRepository.java:145)   [DUBBO] Dubbo is completely destroyed, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.common.threadpool.manager.FrameworkExecutorRepository.destroy(FrameworkExecutorRepository.java:210)   [DUBBO] destroying framework executor repository .., dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 17:56:01  org.apache.dubbo.config.spring.context.DubboSpringInitializer.remove(DubboSpringInitializer.java:80)   [DUBBO] Unbind Dubbo Module[1.1.1] from spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@60b8d514, dubbo version: 3.3.0, current host: 192.168.56.1
+2025-07-04 18:54:42  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)  Initializing Servlet 'springmvc'
+2025-07-04 18:54:44  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)  Completed initialization in 2542 ms
+2025-07-04 18:57:25  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)  Initializing Servlet 'springmvc'
+2025-07-04 18:57:28  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)  Completed initialization in 2683 ms
+2025-07-04 20:15:03  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)  Initializing Servlet 'springmvc'
+2025-07-04 20:15:05  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)  Completed initialization in 2184 ms
+2025-07-04 20:39:26  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)  Initializing Servlet 'springmvc'
+2025-07-04 20:39:28  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)  Completed initialization in 2212 ms
+2025-07-04 20:52:05  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)  Initializing Servlet 'springmvc'
+2025-07-04 20:52:08  org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)  Completed initialization in 2354 ms
